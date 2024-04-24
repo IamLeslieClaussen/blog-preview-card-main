@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Figtree;
+}
+
+.container {
+  background-color: white;
+  height: 600px;
+  width: 400px;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 20px;
+  border: 1px black solid;
+  box-shadow: 10px 10px 0px;
+  padding-bottom: 2rem;
+}
+
+svg {
+  border-radius: 10px;
+}
+
+.name {
+  display: flex;
+}
+
+.button {
+  background-color: yellow;
+  width: fit-content;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.button p {
+  font-weight: 800;
+}
+
+.published {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.text {
+  line-height: 1.5;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  color: gray;
+}
+
+.greg {
+  padding-left: 1.5rem;
+  font-weight: 800;
+  padding-top: 1rem;
+  font-size: 1.2rem;
+}
